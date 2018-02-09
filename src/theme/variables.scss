@@ -226,13 +226,11 @@ body.boxed {
     float: left;
     width: 100%;
     padding: 35px 0px;
-    border-bottom: 1px solid rgba(141,141,141,.2);
     text-align: center;
 }
 .full-section{
     float: left;
     width: 100%;
-    padding: 70px 0px;
     border-bottom: 1px solid rgba(141,141,141,.2);
     overflow: hidden;
 }
@@ -331,17 +329,13 @@ MAP
     vertical-align: middle;
     line-height: 100px;
     border-radius: 100%;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
     transition: .5s;
 }
 
 .style-box:hover .fa{
     color: rgb(240,53,58);
     background-color: transparent;
-     transform: rotateY(180deg);
+    transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -2623,11 +2617,9 @@ height: 100%
 =====================================================================
     HEADER SHADOW
 =====================================================================*/
-.header-shadow            {
-                              -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
-                              -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
-                              box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
-                          }
+.header-shadow {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
+}
 
 
 @media (max-width: 991px)                             { 

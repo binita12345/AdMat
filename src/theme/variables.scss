@@ -2940,3 +2940,21 @@ opacity:1 !important;
 	}
 	}
  // Case stuide page
+.top-info li > .fa {
+    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 24px;
+    border: 1px solid rgba(115,115,115,.7);
+    border-radius: 100%;
+    margin-right: 2px;
+}
+.flat-social-icons li a .fa {
+    display: block;
+    width: 30px;
+    text-align: center;
+    color: #9a9a9a;
+    transition: .5s;
+}

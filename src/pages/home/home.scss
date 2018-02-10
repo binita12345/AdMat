@@ -202,4 +202,11 @@ page-home {
 	page-home .custom-feature {
 	    border: none;
 	}
+	.jumper, .jumper:hover, .jumper:active, .jumper:focus {
+	    text-decoration: none;
+	    color: rgb(239, 53, 58);
+	    font-family: inherit;
+	    font-size: 16px;
+	    font-weight: 400;
+	}
 }

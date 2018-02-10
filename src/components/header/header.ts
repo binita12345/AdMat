@@ -1,4 +1,5 @@
 import { Component , Input} from '@angular/core';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
  * Generated class for the HeaderComponent component.
@@ -15,9 +16,20 @@ export class HeaderComponent {
   text: string;
   @Input() title;
 
-  constructor() {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
     console.log('Hello HeaderComponent Component');
     
   }
-
+  imgTab(){
+  	this.navCtrl.push("HomePage");
+  }
+  homeMenu(){
+  	this.navCtrl.push("HomePage");
+  }
+  productMenu(){
+  	this.navCtrl.push("ProductsPage");
+  }
+  workMenu(){
+    this.navCtrl.push("OurworkPage");
+  }
 }

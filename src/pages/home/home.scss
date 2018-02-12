@@ -121,6 +121,11 @@ page-home {
 	        height:100%;
 		}	 
 	}
+	@media (min-width:991px){
+		.setImag{
+			margin-top: 140px;
+		}
+	}
 	@media handheld, only screen and (min-width: 640px) {
 		.flex-caption {
 			position:absolute;    
@@ -128,6 +133,7 @@ page-home {
 	}
 	.flex-caption {
 	    width: 100%;
+	    padding: 2%;
 	    margin: 0;
 	    left: 0;
 	    bottom: 0;
@@ -165,7 +171,15 @@ page-home {
 	}
 	@media (max-width:600px){
 		.flex-caption{
+			position: static !important;
+			background: none repeat scroll 0% 0% rgb(245, 245, 245) !important;
 			text-shadow: none !important;
+		}
+		.title h3 {
+    	color: #666 !important;
+		}
+		.wrapper-jumper {
+    	display: none;
 		}
 	}
 	h1,h2,h3,h4,h5,h6 {
@@ -208,5 +222,100 @@ page-home {
 	    font-family: inherit;
 	    font-size: 16px;
 	    font-weight: 400;
+	}
+	.bg-light-grey {
+    background: #f5f5f5;
+	}
+	.full-section {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(141,141,141,.2);
+    overflow: hidden;
+	}
+	@media (max-width:992px){
+		.section-title, .section-title.center, .section-title.right {
+	    text-align: center;
+		}
+		.style-box {
+    	margin-bottom: 40px;
+		}
+	}
+	.section-title {
+    margin-bottom: 50px;
+	}
+	.style-box {
+    padding: 0;
+    position: relative;
+	}
+	.style-box header {
+    width: 100%;
+    margin-bottom: 20px;
+	}
+	.style-box .fa {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(240,53,58);
+    background-color: rgb(240,53,58);
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    border-radius: 100%;
+    transition: .5s;
+	}
+	.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    transform: translate(0, 0);
+	}
+	.style-box .title {
+    margin-bottom: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    position: relative;
+	}
+	.style-box .title h3 {
+    margin: 0;
+	}
+	.style-box .box-desc {
+    padding: 0 10px;
+	}
+	@media (max-width: 767px)
+	{
+    .icon-text.vert-align-mid h2, p {
+    	text-align: center !important;
+		}
+		.hidden-xs {
+    	display: none !important;
+		}
+	}
+	.wrapper-jumper {
+    margin-top: 20px;
+	}
+	a {
+    transition: .0s;
+    outline: 0 !important;
+	}
+	a {
+    background: transparent;
+	}
+	#slider-thumbs {
+    padding-right: 0px;
+    padding-left: 0px;
+	}
+	#slider-thumbs {
+    margin-top: -82px;
+	}
+	.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+	}
+	ol, ul {
+    margin: 0;
+    padding: 0;
 	}
 }

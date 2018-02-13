@@ -26,10 +26,19 @@ export class HeaderComponent {
   homeMenu(){
   	this.navCtrl.push("HomePage");
   }
-  productMenu(){
-  	this.navCtrl.push("ProductsPage");
-  }
+  // productMenu(){
+  // 	this.navCtrl.push("ProductsPage");
+  // }
   workMenu(){
     this.navCtrl.push("OurworkPage");
+  }
+  onCleaning(){
+    this.navCtrl.push("CleaningPage");
+  }
+  onCoating(){
+    this.navCtrl.push("CoatingPage");
+  }
+  contactMenu(){
+    this.navCtrl.push("ContactPage");
   }
 }

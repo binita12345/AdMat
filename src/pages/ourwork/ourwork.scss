@@ -26,6 +26,9 @@ page-ourwork {
 		.container{
 			width:1170px;
 		}
+		.maindiv{
+			margin-top: 44vw;
+		}
 	}
 	.container {
     margin-right: auto;
@@ -51,6 +54,14 @@ page-ourwork {
 	    float: left;
 	    position: relative;
 			min-height: 1px;
+		}
+		.maindiv{
+			margin-top: 44vw;
+		}
+	}
+	@media (max-width:767px){
+		.maindiv {
+    	margin-top: 44.5vw;
 		}
 	}
 	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, 
